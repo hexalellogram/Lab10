@@ -2,7 +2,7 @@
 let myKey = Math.random().toString(36).substring(2);
 // console.log(myKey);
 
-var factory = splitio({
+let factory = splitio({
   core: {
     authorizationKey: 'vrjk97huv9pf95if78uo9178buskbfnbi23t',
     // your internal user id, or the account id that
@@ -14,12 +14,12 @@ var factory = splitio({
   },
 });
 // And get the client instance you'll use
-var client = factory.client();
+let client = factory.client();
 
 // console.log(factory.client());
 
 client.on(client.Event.SDK_READY, function () {
-  var treatment = client.getTreatment('double_column');
+  let treatment = client.getTreatment('double_column');
   //   console.log(treatment);
   if (treatment == 'on') {
     document.querySelectorAll('main')[0].className = 'double-column';
