@@ -20,10 +20,4 @@ The secondSplit A/B test changes the title of the page to by "My Journal Entries
 
 ## Google Analytics Screenshots
 
-![Graph Picture](screenshots/graph.png)
-
-![Tags Picture](screenshots/tags.png)
-
-![Triggers Picture](screenshots/triggers.png)
-
-![version Picture](screenshots/version.png)
+![Graph Picture](screenshots/graph-analytics.png)
