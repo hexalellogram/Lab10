@@ -6,4 +6,4 @@ Bryce Tsuyuki
 
 ## Canny Page
 
-[Click Here for Canny Page](https://cse-110-lab10-hexalellogram.canny.io/)
+[Click Here for Canny Page](https://cse110-lab10-hexalellogram.canny.io/)
