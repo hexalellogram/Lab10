@@ -6,7 +6,8 @@ Bryce Tsuyuki
 
 ## Canny Page
 
-[Click Here for Canny Page](https://cse110-lab10-hexalellogram.canny.io/)
+[Canny Roadmap](https://cse110-lab10-hexalellogram.canny.io/)
+[Canny Feature Requests Board](https://cse110-lab10-hexalellogram.canny.io/feature-requests)
 
 ## Splits
 
