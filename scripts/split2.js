@@ -19,14 +19,14 @@ let client = factory.client();
 // console.log(factory.client());
 
 client.on(client.Event.SDK_READY, function () {
-  // controls double or single column layout
-  let treatment = client.getTreatment('double_column');
+  // controls whether the title is Journal Entries or My Journal Entries
+  let treatment2 = client.getTreatment('title_my');
   //   console.log(treatment);
-  if (treatment == 'on') {
-    document.querySelectorAll('main')[0].className = 'double-column';
+  if (treatment2 == 'on') {
+    document.querySelectorAll('h1')[0].innerHTML = 'My Journal Entries';
     // console.log('double on');
   } else if (treatment == 'off') {
-    document.querySelectorAll('main')[0].className = '';
+    treatment2.querySelectorAll('h1')[0].innerHTML = 'Journal Entries';
     // console.log('double off');
   } else {
     // insert code for control treatment
